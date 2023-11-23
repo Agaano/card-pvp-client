@@ -1,0 +1,29 @@
+.main {
+	$paddingBlock: 23px;
+	background-color: #53534e;
+	padding-inline: 26px;
+	padding-block: $paddingBlock;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 100%;
+	max-width: 350px;
+	margin-bottom: 15px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 15px;
+	width: 100%;
+	max-width: 350px;
+	button {
+		width: 100%;
+	}
+}

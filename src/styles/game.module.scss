@@ -1,0 +1,24 @@
+.main {
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+	button {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 25%;
+	}
+}
+
+.team {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	&:first-of-type {
+		top: -5%;
+	}
+	&:last-of-type {
+		bottom: -5%;
+	}
+}
